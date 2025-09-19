@@ -10,22 +10,12 @@ import SchedulePost from './components/SchedulePost'
 import GettingTrail from './components/GettingTrail'
 import Footer from './components/Footer'
 import FeedbackSection from './components/FeedbackSection'
+import HomePage from './pages/HomePage'
 function App() {
 
   return (
-    <div className=''>
-      <div className='p-20 bg-[#27C0EF]'>
-        <Navbar />
-        <Hero />
-      </div>
-      <div className=''>
-        <BrandsList />
-        <SchedulePost />
-        <HashTagCards />
-        <FeedbackSection />
-        <div className='p-10 bg-white'><GettingTrail /></div>
-        <Footer />
-      </div>
+    <div className='overflow-x-hidden'>
+      <HomePage />
     </div>
   )
 }
