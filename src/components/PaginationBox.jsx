@@ -4,7 +4,7 @@ import BasicRating from '../ui/BasicRating'
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
 
-import photo from '../assets/feedback/photo.png';
+import photo from '../assets/feedback/photo.png'
 import PaginationDots from '../ui/PaginationDots';
 
 const PaginationBox = () => {
