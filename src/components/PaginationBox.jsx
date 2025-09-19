@@ -16,7 +16,7 @@ const PaginationBox = () => {
             <div className='text-[#90A3B4]'>“With Ehya, we’re able to easily track our performance in full detail. It’s become an essential tool for us to grow and engage with our audience.”</div>
             <div className='flex justify-between items-center p-5'>
                 <div className='flex items-center gap-4'>
-                    <div><img src={photo} width='56px' /></div>
+                    <div><img src={photo} alt='AlterNative Text' width='56px' /></div>
                     
                     <div>
                         <div className='text-[#034D82] text-[20px]'>Jaquon Hart</div>
