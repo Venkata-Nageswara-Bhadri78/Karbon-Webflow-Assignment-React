@@ -8,7 +8,7 @@ import image4 from '../assets/trails/item4.png';
 import bgm from '../assets/trails/bg/sector.png'
 const GettingTrail = () => {
   return (
-    <div className='mx-auto flex items-center justify-between bg-[#01B8D9] text-white p-10'>
+    <div className='p-10 mx-auto flex items-center justify-between bg-[#01B8D9] text-white'>
         <div className='w-1/3'>
             <div className='text-[36px]'>Grow your brand presence on social media 😍</div>
             <div className='text-[14px] py-3'>Join with more 1200+ happy customers</div>
