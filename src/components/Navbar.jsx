@@ -2,9 +2,9 @@ import React from 'react'
 import { FaCircle } from "react-icons/fa";
 
 const Navbar = () => {
-    const itemStyling = 'text-center py-2 text-white'
+    const itemStyling = 'text-center text-white'
   return (
-    <div className='px-8 md:flex md:flex-row md:justify-between md:items-center'>
+    <div className='px-10 md:flex md:flex-row md:justify-between md:items-center'>
         <div className='hidden md:flex font-extrabold text-white text-4xl items-center'>
             ehya <FaCircle className='text-[#005490]' size={10}/>
         </div>
