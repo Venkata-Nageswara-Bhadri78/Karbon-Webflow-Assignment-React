@@ -22,7 +22,7 @@ const Hero = () => {
                 <div className='flex items-center gap-2'>Get a free demo <FaArrowRightLong /> </div>
             </div>
         </div>
-        <div className="absolute -right-7 top-38 z-20">
+        <div className="absolute -right-7 top-20 z-20">
             <img src={homepage} alt="homepage" width='1038px' className="object-contain" />
         </div>
     </div>
